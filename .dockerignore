@@ -1,0 +1,41 @@
+# Binaries
+/server
+*.exe
+*.out
+*.test
+
+# Build artifacts
+Dockerfile
+/dist
+/build
+/bin
+/tmp
+*.log
+
+# Vendor (if you're not using vendoring)
+vendor/
+
+# Git and version control
+.git
+.gitignore
+
+# Dependency caches
+go.sum
+go.mod~
+
+# IDE/editor settings
+*.swp
+*.swo
+*.bak
+*.md
+*.tmp
+*.DS_Store
+.idea/
+.vscode/
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+
+# Environment
+.env
